@@ -1,4 +1,4 @@
-Only3_5[]
+Only3_5=[]
 def push3_5(N):
     for no in N:
         if no%3==0 or no%5==0:
