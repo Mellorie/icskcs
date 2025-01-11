@@ -6,9 +6,9 @@ def push3_5(N):
         print(only3_5)
     
 def pop3_5():
-    if only 3_5==[]:
+    if only3_5==[]:
         print("Underflow")
-    while only 3_5!=[]:
+    while only3_5!=[]:
         print(only3_5.pop())
     else:
         print("Stack empty")
@@ -22,12 +22,12 @@ def make_list():
         N.append(no)
         
 while True:
-    print("\n 1.Makelist \n 2.Pushlist \n 3.Poplist \n 4.Exit")
-    ch=int(inpout("Enter Your Choice:"))
+    print("\n 1.Make list \n 2.Push list \n 3.Pop list \n 4.Exit")
+    ch=int(input("Enter Your Choice:"))
     if ch==2:
-        push 3_5(N)
+        push3_5(N)
     elif ch==3:
-        pop 3_5()
+        pop3_5()
     elif ch==1:
         makelist()
     else:
